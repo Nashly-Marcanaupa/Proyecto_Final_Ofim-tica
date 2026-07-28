@@ -28,8 +28,6 @@ https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales
   | `periodo_covid` | Indica si el mes corresponde a 2020-2021 (pandemia) o no |
   | `tc_var_mensual` | Variación mensual del tipo de cambio, variable derivada |
 
----
-
 ## 2. Estructura del repositorio
 
 ```
@@ -56,8 +54,6 @@ Proyecto_Final/
 └── README.md
 ```
 
----
-
 ## 3. Metodología (resumen del script `EDA.R`)
 
 1. **Importación:** se leyó el archivo `data/bcrp_tipo_cambio_inflacion.csv` con `read.csv()`.
@@ -72,8 +68,6 @@ Proyecto_Final/
    2. Serie de tiempo de la inflación (con banda de meta del BCRP).
    3. Diagrama de dispersión tipo de cambio vs. inflación, coloreado por década.
    4. Barras de inflación promedio anual.
-
----
 
 ## 4. Parte 2 – Análisis final (script `04_analisis_final.R`)
 
@@ -123,6 +117,6 @@ source("04_analisis_final.R")
 
 ## 6. Publicación en redes sociales (LinkedIn / X)
 
-Se publicó el gráfico `figures/05_hallazgo_final_tc_inflacion.png` (generado por `04_analisis_final.R`) junto con los hallazgos finales del análisis.
+Se publicó el gráfico `HALLAZGO FINAL_INFLACIÓN` junto con los hallazgos finales del análisis.
+<img width="737" height="565" alt="image" src="https://github.com/user-attachments/assets/338cc632-3826-4695-942f-308e1783d106" />
 
-📎 _(Adjunta aquí la captura de pantalla de tu publicación, por ejemplo: `![publicacion](figures/captura_publicacion.png)` )_
